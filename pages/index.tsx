@@ -13,7 +13,7 @@ const Home: NextPage = () => {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <main className="prose ml-12 mt-12 ">
+            <main className="prose ml-12 my-12 ">
                 <h1 className="mb-32">
                     Some text to test if styles are working with tailwind 3.2
                 </h1>
@@ -21,7 +21,8 @@ const Home: NextPage = () => {
                 <h3>Info</h3>
                 <p>
                     If this is not working, check the console. You're
-                    probability getting the warning:{" "}
+                    probability getting the{" "}
+                    <span className="text-orange-500">warning</span>:{" "}
                     <span className="underline">
                         No utility classes were detected in your source files.
                         If this is unexpected, double-check the `content` option
@@ -87,6 +88,23 @@ const Home: NextPage = () => {
                     <li>Add the Tailwind directives to CSS</li>
                     <li>
                         Start the dev server:{" "}
+                        <span className="underline underline-offset-2 decoration-sky-500">
+                            yarn dev
+                        </span>
+                    </li>
+                    <li>At this point no css was loading</li>
+                    <li>
+                        Remove .next folder to ensure no cross contamination
+                        when testing other version of tailwind
+                    </li>
+                    <li>
+                        Change tailwind version:{" "}
+                        <span className="underline underline-offset-2 decoration-sky-500">
+                            yarn add -D tailwindcss@3.1.8
+                        </span>
+                    </li>
+                    <li>
+                        Start the dev server and see css:{" "}
                         <span className="underline underline-offset-2 decoration-sky-500">
                             yarn dev
                         </span>
