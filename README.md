@@ -1,1 +1,1 @@
-# tailwind3.2-nextjs
+# Repo showing bug with Nextjs with Tailwind 3.2
