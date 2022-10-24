@@ -30,6 +30,19 @@ const Home: NextPage = () => {
                     </span>
                 </p>
 
+                <h3> Testing System:</h3>
+                <ul>
+                    <li>MacBook Air</li>
+                    <li>MacOS Monterey</li>
+                    <li>Yarn version: 1.22.19</li>
+                    <li>NextJS version: 12.3.1</li>
+                    <li>React version: 18.2.0</li>
+                    <li>React-dom version: 18.2.0</li>
+                    <li>Tailwindcss typography version: ^0.5.7 </li>
+                    <li>autoprefixer version: ^10.4.12 </li>
+                    <li>postcss version: ^8.4.18 </li>
+                </ul>
+
                 <h3>
                     Steps to get to this point{" "}
                     <span className="font-normal text-base ">
