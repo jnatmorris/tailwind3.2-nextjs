@@ -20,7 +20,7 @@ const Home: NextPage = () => {
 
                 <h3>Info</h3>
                 <p>
-                    If this is not working, check the console. You're
+                    If this is not working, check the console. You&apos;re
                     probability getting the{" "}
                     <span className="text-orange-500">warning</span>:{" "}
                     <span className="underline">
